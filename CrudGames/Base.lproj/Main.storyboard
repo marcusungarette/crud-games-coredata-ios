@@ -3,6 +3,7 @@
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -70,9 +71,10 @@
             <objects>
                 <navigationController id="eeI-v1-ylV" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="ZL9-6o-bd0"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZbE-nP-zGS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="ZbE-nP-zGS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" name="secondColor"/>
                     </navigationBar>
                     <connections>
                         <segue destination="mfM-Xg-Rev" kind="relationship" relationship="rootViewController" id="mYR-oZ-3fE"/>
@@ -87,9 +89,10 @@
             <objects>
                 <navigationController id="I8p-VG-3Qh" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="f7b-9I-i1R"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0Is-8D-x5J">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="0Is-8D-x5J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" name="primaryColor"/>
                     </navigationBar>
                     <connections>
                         <segue destination="aKh-mH-JZH" kind="relationship" relationship="rootViewController" id="1gA-8R-lTc"/>
@@ -119,6 +122,12 @@
         </scene>
     </scenes>
     <resources>
+        <namedColor name="primaryColor">
+            <color red="0.0" green="0.68235294117647061" blue="0.87450980392156863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="secondColor">
+            <color red="1" green="0.23529411764705882" blue="0.58431372549019611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
