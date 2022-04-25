@@ -12,7 +12,7 @@
         <!--Lista de Games-->
         <scene sceneID="WKg-UO-38c">
             <objects>
-                <tableViewController id="aKh-mH-JZH" sceneMemberID="viewController">
+                <tableViewController id="aKh-mH-JZH" customClass="GamesTableViewController" customModule="CrudGames" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="jdB-g8-aCR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -79,7 +79,7 @@
         <!--Lista de Plataformas-->
         <scene sceneID="F13-hU-4OO">
             <objects>
-                <tableViewController id="mfM-Xg-Rev" sceneMemberID="viewController">
+                <tableViewController id="mfM-Xg-Rev" customClass="PlataformasTableViewController" customModule="CrudGames" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="jue-Pg-swR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -122,6 +122,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="ZbE-nP-zGS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="secondColor"/>
                         <color key="barTintColor" name="secondColor"/>
                     </navigationBar>
                     <connections>
@@ -140,6 +141,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="0Is-8D-x5J">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="primaryColor"/>
                         <color key="barTintColor" name="primaryColor"/>
                     </navigationBar>
                     <connections>
@@ -150,10 +152,10 @@
             </objects>
             <point key="canvasLocation" x="-497" y="90"/>
         </scene>
-        <!--View Controller-->
+        <!--Game View Controller-->
         <scene sceneID="9bg-ph-g0e">
             <objects>
-                <viewController id="cxP-0o-iob" sceneMemberID="viewController">
+                <viewController id="cxP-0o-iob" customClass="GameViewController" customModule="CrudGames" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SYI-XL-xMT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -213,7 +215,7 @@
         <!--Adicionar novo Game-->
         <scene sceneID="d4F-xf-0fJ">
             <objects>
-                <viewController id="Rz0-OP-5Is" sceneMemberID="viewController">
+                <viewController id="Rz0-OP-5Is" customClass="AddEditViewController" customModule="CrudGames" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tP1-Bt-JZY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -317,6 +319,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="upn-zP-CLO" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aBY-4d-aYb">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -335,10 +338,10 @@
         <image name="console" width="23" height="23"/>
         <image name="game" width="23" height="23"/>
         <namedColor name="primaryColor">
-            <color red="0.0" green="0.68235294117647061" blue="0.87450980392156863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.68199998140335083" blue="0.875" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="secondColor">
-            <color red="1" green="0.23529411764705882" blue="0.58431372549019611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23499999940395355" blue="0.58399999141693115" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -14,6 +14,10 @@
 		793D83DB28161D1E000C669B /* CrudGames.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 793D83D928161D1E000C669B /* CrudGames.xcdatamodeld */; };
 		793D83DD28161D27000C669B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 793D83DC28161D27000C669B /* Assets.xcassets */; };
 		793D83E028161D27000C669B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793D83DE28161D27000C669B /* LaunchScreen.storyboard */; };
+		793D83E828164636000C669B /* GamesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D83E728164636000C669B /* GamesTableViewController.swift */; };
+		793D83EA28164685000C669B /* PlataformasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D83E928164685000C669B /* PlataformasTableViewController.swift */; };
+		793D83EC281647B5000C669B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D83EB281647B5000C669B /* GameViewController.swift */; };
+		793D83EE2816482B000C669B /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D83ED2816482B000C669B /* AddEditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		793D83DC28161D27000C669B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		793D83DF28161D27000C669B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		793D83E128161D27000C669B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		793D83E728164636000C669B /* GamesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesTableViewController.swift; sourceTree = "<group>"; };
+		793D83E928164685000C669B /* PlataformasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlataformasTableViewController.swift; sourceTree = "<group>"; };
+		793D83EB281647B5000C669B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		793D83ED2816482B000C669B /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,10 @@
 				793D83D228161D1E000C669B /* SceneDelegate.swift */,
 				793D83D428161D1E000C669B /* ViewController.swift */,
 				793D83D628161D1E000C669B /* Main.storyboard */,
+				793D83ED2816482B000C669B /* AddEditViewController.swift */,
+				793D83EB281647B5000C669B /* GameViewController.swift */,
+				793D83E928164685000C669B /* PlataformasTableViewController.swift */,
+				793D83E728164636000C669B /* GamesTableViewController.swift */,
 				793D83DC28161D27000C669B /* Assets.xcassets */,
 				793D83DE28161D27000C669B /* LaunchScreen.storyboard */,
 				793D83E128161D27000C669B /* Info.plist */,
@@ -141,9 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793D83EC281647B5000C669B /* GameViewController.swift in Sources */,
 				793D83D528161D1E000C669B /* ViewController.swift in Sources */,
 				793D83DB28161D1E000C669B /* CrudGames.xcdatamodeld in Sources */,
+				793D83EA28164685000C669B /* PlataformasTableViewController.swift in Sources */,
+				793D83EE2816482B000C669B /* AddEditViewController.swift in Sources */,
 				793D83D128161D1E000C669B /* AppDelegate.swift in Sources */,
+				793D83E828164636000C669B /* GamesTableViewController.swift in Sources */,
 				793D83D328161D1E000C669B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
